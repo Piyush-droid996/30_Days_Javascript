@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Event Handling</title>
+    <style>
+      * {
+        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+          Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+          sans-serif;
+      }
+      #box {
+        background-color: cyan;
+        transition: all 0.3s;
+        text-align: center;
+        padding: 30px;
+        font-weight: 500;
+        cursor: pointer;
+      }
+
+      #text {
+        padding: 10px;
+        width: 300px;
+        border: 3px solid grey;
+        margin: 20px;
+      }
+
+      .input {
+        padding: 10px;
+        width: 300px;
+        border: 3px solid black;
+        margin: 20px;
+      }
+
+      #select {
+        margin: 20px;
+        width: auto;
+        height: 30px;
+        font-size: 1.2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <button id="btn">Click to change text</button>
+    <p id="para">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+      obcaecati deserunt consequatur aspernatur doloremque dolorum, pariatur
+      inventore eius, consectetur nulla, facilis animi nam impedit labore
+      recusandae numquam dolores hic itaque.
+    </p>
+    <hr />
+    <div>
+      <img
+        src="https://images.unsplash.com/photo-1720986073399-f5c24e020ca1?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwxM3x8fGVufDB8fHx8fA%3D%3D"
+        alt=""
+        id="image"
+        style="cursor: pointer"
+      />
+      <h2>Double click on image to change visibilty</h2>
+    </div>
+    <hr />
+
+    <div id="box">Hover to change background color</div>
+    <hr />
+
+    <input
+      type="text"
+      name="text"
+      id="text"
+      placeholder="Type here to see in console"
+    />
+    <hr />
+
+    <form action="/" id="form">
+      <label for="name">Name</label>
+      <input
+        type="text"
+        class="input"
+        name="name"
+        id="name"
+        placeholder="Enter your name"
+      />
+      <br />
+      <label for="mobile">Mobile</label>
+      <input
+        type="number"
+        class="input"
+        name="mobile"
+        id="mobile"
+        placeholder="Enter your mobile"
+      />
+      <br />
+      <label for="password">Password</label>
+      <input
+        type="password"
+        class="input"
+        name="password"
+        id="password"
+        placeholder="Enter your password"
+      />
+      <button>Submit</button>
+    </form>
+    <hr />
+
+    <label for="select">Choose One:</label>
+    <select name="select" id="select">
+      <option value="">--select--</option>
+      <option value="G63 AMG">G63 AMG</option>
+      <option value="BMW m340i">BMW m340i</option>
+      <option value="Defender">Defender</option>
+    </select>
+
+    <h2 id="option">Your selected option:</h2>
+    <hr />
+    <h3>Click any item to log it to console</h3>
+    <ul id="myList">
+      <li>Item 1</li>
+      <li>Item 2</li>
+      <li>Item 3</li>
+      <li>Item 4</li>
+    </ul>
+    <hr />
+    <div id="parent">
+      <button id="addChild">Add Child</button>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

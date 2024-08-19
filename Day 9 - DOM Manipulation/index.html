@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DOM Manipulation</title>
+    <style>
+      .blue {
+        background-color: blue;
+        width: 100px;
+        height: 100px;
+      }
+      .cyan {
+        background-color: cyan;
+        width: 100px;
+        height: 100px;
+      }
+
+      .btn {
+        height: 40px;
+        font-size: 1.2rem;
+        width: auto;
+        padding: 3px 10px;
+        background-color: rgb(198, 198, 198);
+        border: 5px solid green;
+        cursor: pointer;
+        transition: all 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 id="heading">This is heading before changing its text content</h1>
+    <div
+      class="box"
+      style="width: 100px; height: 100px; background-color: black; color: white"
+    >
+      This is a div with black background
+    </div>
+    <div
+      class="box"
+      style="width: 100px; height: 100px; background-color: black; color: white"
+    >
+      This is a div with black background
+    </div>
+    <ul id="list">
+      <li class="list-item">Item-{1}</li>
+      <li class="list-item">Item-{2}</li>
+      <li class="list-item">Item-{3}</li>
+      <li class="list-item">Item-{4}</li>
+      <li class="list-item">Item-{5}</li>
+    </ul>
+    <p id="remove">This item is going to be removed</p>
+    <ul id="remove-last">
+      <li>This is item 1</li>
+      <li>This is item 2 --- last item is removed</li>
+      <li>This is last item</li>
+    </ul>
+    <img
+      id="image"
+      src="https://images.unsplash.com/photo-1721390252448-4dc6298988ef?w=300&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8"
+      alt=""
+    />
+    <div class="blue" id="change-class"></div>
+
+    <div>
+      <p class="change-text">
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis, nisi
+        nam obcaecati aspernatur temporibus pariatur magnam, doloribus autem
+        tempore reprehenderit non blanditiis facere quaerat tenetur fugit ut
+        soluta totam labore.
+      </p>
+      <button class="btn">Click to change text</button>
+      <p>Hover to change button color</p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

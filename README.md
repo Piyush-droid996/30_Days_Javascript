@@ -14,36 +14,6 @@ Welcome to the **30 Days of JavaScript** challenge! 🚀 This repository contain
 
 ## Overview
 
-The goal of this challenge is to build a strong foundation in JavaScript by working on a different topic each day. Whether you're a beginner or looking to refresh your skills, this challenge will help you become more proficient in JavaScript.
-
-## Getting Started
-
-To get started:
-
-1. **Clone this repository:**
-   ```bash
-   git clone https://github.com/Piyush-droid996/30_days_of_javascript.git
-
-Here's a README.md file for your "30 Days of JavaScript" project with a set theme and icons:
-
-markdown
-Copy code
-# 30 Days of JavaScript
-
-Welcome to the **30 Days of JavaScript** challenge! 🚀 This repository contains a series of daily exercises, challenges, and projects to help you enhance your JavaScript skills over the course of 30 days.
-
-## Table of Contents
-
-- [Overview](#overview)
-- [Getting Started](#getting-started)
-- [Daily Challenges](#daily-challenges)
-- [Projects](#projects)
-- [Resources](#resources)
-- [Contributing](#contributing)
-- [License](#license)
-
-## Overview
-
 The goal of this challenge is to build a strong foundation in JavaScript by working on a different topic each day. Whether you're a beginner or looking to refresh your skills, this challenge will help you become more proficient in JavaScript. By the end of the 30 days, you will have a solid grasp of JavaScript fundamentals and practical experience with various projects.
 
 ## Getting Started
